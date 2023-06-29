@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Black Eyed Peas Fan Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="bodyContainer">
+            <div class="header">
+                <h1>The Black Eyed Peas Fan Page</h1>
+            </div>
+        </div>
+        
+        <hr>
+        
+        <div class="bodyContainer">
+            <nav class="navbar navbar-expand-sm">
+                <div class="myNavBar">
+                    <!-- navbar links to home tab, book review tab, and comic review tab -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="bi-house-fill"></i>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="fanclub.html"><i class="bi-people-fill"></i>Sign up for the fan club!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="disco.html"><i class="bi bi-music-note"></i>Discography!</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        
+        <form action="thankyou.jsp" method="post">
+            <div class="alignItems">
+                <label>Enter Name</label>
+                <input type="textbox" name="name" class="inputs">
+
+                <label>Enter Email Address</label>
+                <input type="textbox" name="email" class="inputs">
+
+                <label>Enter Phone Number</label>
+                <input type="textbox" name="phoneNumber" class="inputs">
+                
+                <br>
+
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+       
+        
+    </body>
+</html>
